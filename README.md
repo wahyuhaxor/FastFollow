@@ -1,4 +1,4 @@
-# FastFollower Instagram Best 
+# Fast Follower Instagram Best 
 
 ## Installation
 ```
