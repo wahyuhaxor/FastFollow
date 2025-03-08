@@ -8,10 +8,10 @@ $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
 ```
 ```
-$ git clone https://github.com/RozhakXD/InstaModa
+$ git clone https://github.com/wahyuhaxor/FastFollow
 ```
 ```
-$ cd InstaModa
+$ cd FastFollow
 ```
 ```
 $ python -m pip install -r requirements.txt
@@ -19,13 +19,6 @@ $ python -m pip install -r requirements.txt
 ```
 $ python Run.py
 ```
-```
-$ cd InstaModa
-```
-```
-$ python Run.py
-```
-
 ## Issues and Solutions
 - **No Followers Added**: If no followers are added, the issue may be that the service you're using has no active users. Try a different service or wait and try again later.
 - **Login Failures**: If you experience login issues, try logging in manually on another device first. After successful login, retry the program.
