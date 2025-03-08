@@ -167,7 +167,7 @@ class MAIN:
             self.ACCOUNTS = Console().input("[bold bright_black]   ╰─> ")
             if ':' in str(self.ACCOUNTS):
                 self.USERNAME, self.PASSWORD = self.ACCOUNTS.split(':')[0], self.ACCOUNTS.split(':')[1]
-                printf(Panel(f"[bold white]Please fill in your Instagram account username, make sure the account is not locked and the\nusername is correct. Example:[bold green] @rozhak_official", width=59, style="bold bright_black", title="[bold bright_black][Username]", subtitle="[bold bright_black]╭──────", subtitle_align="left"))
+                printf(Panel(f"[bold white]Please fill in your Instagram account username, make sure the account is not locked and the\nusername is correct. Example:[bold green] @Wahyu Haxor", width=59, style="bold bright_black", title="[bold bright_black][Username]", subtitle="[bold bright_black]╭──────", subtitle_align="left"))
                 self.YOUR_USERNAME = Console().input("[bold bright_black]   ╰─> ").replace('@', '')
                 if len(self.YOUR_USERNAME) != 0:
                     printf(Panel(f"[bold white]While sending followers, you can use[bold yellow] CTRL + C[bold white] if stuck and[bold red] CTRL + Z[bold white] if you want to stop,\nif an error occurs check the service and account!", width=59, style="bold bright_black", title="[bold bright_black][Catatan]"))
@@ -242,7 +242,7 @@ class MAIN:
   | | |  _ \ /___)  _)/ _  | || || |/ _ \ / || |/ _  |
  _| |_| | | |___ | |_( ( | | || || | |_| ( (_| ( ( | |
 [bold white](_____)_| |_(___/ \___)_||_|_||_||_|\___/ \____|\_||_|
-        [underline green]Free Instagram Followers - by Rozhak""", width=59, style="bold bright_black"))
+        [underline green]Free Instagram Followers - by Wahyu Haxor""", width=59, style="bold bright_black"))
         return (True)
 
     def DELAY(self, menit, detik, your_username):
